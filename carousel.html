@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carousel Demo</title>
+	 <link rel="stylesheet" type="text/css" href="bootstrap.css"> 
+ 	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	
+	
+
+</head>
+
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 800px;
+  }
+  </style>
+<body>
+<div class="container">
+<div class="carousel slide" id="myslider" data-ride="carousel">
+	<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="1.jpg" alt="1.jpg" ml-auto>
+							<div class="carousel-caption">
+								<h2>Hello guys</h2>
+								<p>First image</p>
+							</div>
+						</div>
+						
+						<div class="carousel-item ">
+							<img src="2.jpg" alt="1.jpg">
+							<div class="carousel-caption">
+								<h2>Hello guys</h2>
+								<p>Second image</p>
+							</div>
+						</div>
+
+						<div class="carousel-item ">
+							<img src="3.jpg" alt="1.jpg">
+							<div class="carousel-caption">
+								<h2>Hello guys</h2>
+								<p>Third image</p>
+							</div>
+						</div>
+						<ul class="carousel-indicators">
+							<li data-target="#myslider" data-slide-to="0" class="active">
+							</li>
+							<li data-target="#myslider" data-slide-to="1" >
+							</li>
+							<li data-target="#myslider" data-slide-to="2" >
+							</li>
+						</ul>
+<!-- Left and right controls -->
+						<a href="#myslider" data-slide="prev" class="carousel-control-prev">
+						<span class="carousel-control-prev-icon"></span>
+						</a>
+
+						<a href="#myslider" data-slide="next" class="carousel-control-next">
+						<span class="carousel-control-next-icon"></span>
+						</a>
+	</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
